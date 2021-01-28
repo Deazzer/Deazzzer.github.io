@@ -1,0 +1,37 @@
+@gray:#2727d9;
+@fz:20px;
+@fz1:60px;
+@fz2:12px;
+.font(@fz:20px;){
+	font-size: @fz;
+}
+.header{
+	.font;
+	line-height: 1.5;
+	margin: @fz1 auto;
+	span{
+	display:block;
+}
+}
+.form{
+	border: 5px solid @gray;
+	padding: 30px @fz;
+input{
+	margin-bottom: @fz2;
+}
+&-header.section-header{
+	margin-bottom: @fz;
+	.font;
+	font-weight: 900;
+}
+&-btn{
+	background-color: @gray;
+	margin-top: @fz2;
+}
+}
+.feature{
+	margin-top: @fz1;
+p{
+	margin-top: @fz;
+}
+}
